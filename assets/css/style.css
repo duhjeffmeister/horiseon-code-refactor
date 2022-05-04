@@ -1,23 +1,12 @@
-/*Start universal style*/
+/*Universal style*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/*End univeral style*/
+/*Universal style*/
 
-/*Start global style*/
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-/*End global style*/
-
-/*Start body style*/
+/*Body style*/
 body {
     background-color: #d9dcd6;
 }
@@ -57,8 +46,18 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-/*End Header style */
+/*End Header style*/
 
+/*Global style*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/*End global style*/
 
 /*Hero section style*/
 .hero {
@@ -108,19 +107,8 @@ body {
     margin-bottom: 10px;
     text-align: center;
 }
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -137,14 +125,15 @@ body {
     color: #ffffff;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing img {
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-/*End content section style*/
+}
+/*End content style*/
 
 /*Footer style*/
 .footer {
