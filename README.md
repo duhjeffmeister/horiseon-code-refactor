@@ -7,3 +7,4 @@
 
 Link to published page: https://duhjeffmeister.github.io/horiseon-code-refactor/
 
+![screenshot](./assets/images/horiseon-screenshot.png)
